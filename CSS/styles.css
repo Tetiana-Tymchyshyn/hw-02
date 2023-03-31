@@ -1,6 +1,8 @@
 /* BODY */
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
   color: var(--color-navy-blue);
   background-color: var(--color-white);
 }
@@ -33,7 +35,6 @@ body {
   letter-spacing: 2%;
 }
 .description-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
@@ -47,6 +48,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 3%;
+  text-transform: uppercase;
   color: var(--color-iris);
 }
 .logo-dark {
@@ -63,7 +65,8 @@ body {
   letter-spacing: 2%;
   color: var(--color-navy-blue);
 }
-.address.list {
+.address-item.link,
+.address-items.link {
   color: var(--color-slate);
 }
 .menu-link.link:hover,
@@ -89,11 +92,13 @@ body {
   color: var(--color-white);
 }
 .modal-btn {
+  font-family: inherit;
   background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 4%;
+
   color: var(--color-white);
 }
 .modal-btn:hover,
@@ -107,7 +112,6 @@ body {
 
 /* Footer*/
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
@@ -117,8 +121,9 @@ body {
   background-color: var(--color-navy-blue);
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO */ /* SECTION */
 .btn-menu {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
