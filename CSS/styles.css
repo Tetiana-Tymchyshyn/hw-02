@@ -2,8 +2,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  cursor: pointer;
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 .list {
@@ -32,12 +31,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 .description-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
 }
 
@@ -46,8 +46,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
 }
@@ -62,11 +62,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.address-item.link,
-.address-items.link {
+
+.address-item.link {
   color: var(--color-slate);
 }
 .menu-link.link:hover,
@@ -88,7 +88,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--color-white);
 }
 .modal-btn {
@@ -97,24 +98,34 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
-
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--color-white);
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  color: var(--color-ocean);
+  background-color: var(--color-ocean);
+}
+.about {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 /* TEAM */
-.team-list {
+.section {
   background-color: var(--color-cloud);
 }
-
+.items {
+  background-color: #ffffff;
+}
 /* Footer*/
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
 .main-footer {
@@ -122,16 +133,17 @@ body {
 }
 
 /* PORTFOLIO */ /* SECTION */
-.btn-menu {
-  font-family: inherit;
+.btn-menu.list {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .btn {
   color: var(--color-iris);
-  background-color: var(--color-cornflower);
+  background-color: var(--color-cloud);
 }
 .btn:hover,
 .btn:focus {
