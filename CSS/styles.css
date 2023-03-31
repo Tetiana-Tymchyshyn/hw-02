@@ -79,7 +79,9 @@ body {
 .address-item.link:active {
   color: var(--color-ocean);
 }
-
+.contact {
+  font-style: normal;
+}
 /* HERO */
 .hero {
   background-color: var(--color-navy-blue);
@@ -107,12 +109,12 @@ body {
   background-color: var(--color-ocean);
 }
 .about {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 /* TEAM */
 .section {
